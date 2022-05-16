@@ -1,0 +1,30 @@
+package com.wellsfargo.pronunciation.test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.wellsfargo.pronunciation.base.Development;
+import com.wellsfargo.pronunciation.utils.Login;
+
+
+public class TestPronounciationAsExistingUser {
+	
+	@Test
+	public void  testLoginAsAdmin() {
+	  
+		Login login=new Login();
+		login.loginExistingUser(); 		
+
+}  
+	@Test
+	public void  testExistingUserLandingPage() {
+		
+		Development dev=new Development();
+		dev.existingUserLandingPage();
+
+}  
+	
+}

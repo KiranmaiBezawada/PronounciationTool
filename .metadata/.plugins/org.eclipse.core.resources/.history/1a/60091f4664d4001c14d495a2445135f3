@@ -1,0 +1,26 @@
+package com.wellsfargo.pronunciation.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+
+public class Locators {
+	 WebDriver driver=new ChromeDriver(); 
+	 
+	// WebElement username=driver.findElement(By.xpath("\"//input[@name='username']\""));
+	// @FindBy(xpath="{\"locator\":\"xpath=//input[@name='username']\",\"desc\":\"usernsme\"}")
+	 //private WebElement username;
+	 
+	 private WebElement username=driver.findElement (By.xpath("//input[@name='username']"));
+
+	public WebElement getUsername() {
+		return username;
+	}
+
+	public void setUsername(WebElement username) {
+		this.username = username;
+	}
+	 
+}

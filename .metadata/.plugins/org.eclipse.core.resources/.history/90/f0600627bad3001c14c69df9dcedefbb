@@ -1,0 +1,28 @@
+package com.wellsfargo.pronunciation.test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class TestLogin {
+	
+	@Test
+	public void  testLogin() {
+	System.setProperty("webdriver.chrome.driver","le\\Chrome\\Application\\chrome.exe");  
+        
+        // Instantiate a ChromeDriver class.     
+   WebDriver driver=new ChromeDriver();  
+     
+      // Launch Website  
+   driver.get("https://wfnps.azurewebsites.net/names");  
+     
+    //Maximize the browser  
+     driver.manage().window().maximize();  
+     
+     
+
+}  
+
+}  

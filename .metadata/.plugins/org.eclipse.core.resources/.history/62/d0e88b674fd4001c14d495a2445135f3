@@ -1,0 +1,25 @@
+package com.wellsfargo.pronunciation.utils;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
+
+
+public class Login {
+	public void Loginadmin(){
+System.setProperty("webdriver.chrome.driver","D:\\QART\\pronunciation\\pronunciation\\Server\\chromedriver.exe");  
+        
+        // Instantiate a ChromeDriver class.     
+   WebDriver driver=new ChromeDriver();  
+     
+      // Launch Website  
+   driver.get("http://www.javatpoint.com");  
+     
+    //Maximize the browser  
+     driver.manage().window().maximize();  
+     driver.findElement(By.id("user_email_login")).sendKeys(null);
+     driver.findElement(By.id("user_email_login")).sendKeys(null);
+     driver.findElement(By.id("user_email_login")).click();
+	}
+
+}

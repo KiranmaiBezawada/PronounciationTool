@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.wellsfargo.pronunciation.test.TestLogin
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.189 s <<< FAILURE! - in com.wellsfargo.pronunciation.test.TestLogin
+testLogin(com.wellsfargo.pronunciation.test.TestLogin)  Time elapsed: 7.502 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-NCS5F9K', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at com.wellsfargo.pronunciation.test.TestLogin.testLogin(TestLogin.java:17)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at com.wellsfargo.pronunciation.test.TestLogin.testLogin(TestLogin.java:17)
+Caused by: java.util.concurrent.ExecutionException: java.lang.ClassNotFoundException: io.netty.handler.codec.compression.Brotli
+	at com.wellsfargo.pronunciation.test.TestLogin.testLogin(TestLogin.java:17)
+Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.compression.Brotli
+

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Venkat\AppData\Local\Temp\testng-eclipse-243265669\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin" class="method navigator-link" hash-for-method="testAdminLandingPage">testAdminLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin" class="method navigator-link" hash-for-method="testAdminPage">testAdminPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin" class="method navigator-link" hash-for-method="testAdminPreferences">testAdminPreferences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin" class="method navigator-link" hash-for-method="testAdminRecord">testAdminRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin" class="method navigator-link" hash-for-method="testAdminUpload">testAdminUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin" class="method navigator-link" hash-for-method="testLoginAsAdmin">testLoginAsAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testLoginAsUser">testLoginAsUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testUserLandingPage">testUserLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testUserPage">testUserPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testUserPreferences">testUserPreferences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testUserPreferencesButton">testUserPreferencesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testUserPreferencesRecord">testUserPreferencesRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.wellsfargo.pronunciation.test.TestPronounciationAsUser" class="method navigator-link" hash-for-method="testUserPreferencesUpload">testUserPreferencesUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wellsfargo.pronunciation.test.TestPronounciationAsUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAsUser">
+                  </a> <!-- testLoginAsUser -->
+                  <span class="method-name">testLoginAsUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLandingPage">
+                  </a> <!-- testUserLandingPage -->
+                  <span class="method-name">testUserLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserPage">
+                  </a> <!-- testUserPage -->
+                  <span class="method-name">testUserPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserPreferences">
+                  </a> <!-- testUserPreferences -->
+                  <span class="method-name">testUserPreferences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserPreferencesButton">
+                  </a> <!-- testUserPreferencesButton -->
+                  <span class="method-name">testUserPreferencesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserPreferencesRecord">
+                  </a> <!-- testUserPreferencesRecord -->
+                  <span class="method-name">testUserPreferencesRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserPreferencesUpload">
+                  </a> <!-- testUserPreferencesUpload -->
+                  <span class="method-name">testUserPreferencesUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdminLandingPage">
+                  </a> <!-- testAdminLandingPage -->
+                  <span class="method-name">testAdminLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdminPage">
+                  </a> <!-- testAdminPage -->
+                  <span class="method-name">testAdminPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdminPreferences">
+                  </a> <!-- testAdminPreferences -->
+                  <span class="method-name">testAdminPreferences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdminRecord">
+                  </a> <!-- testAdminRecord -->
+                  <span class="method-name">testAdminRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdminUpload">
+                  </a> <!-- testAdminUpload -->
+                  <span class="method-name">testAdminUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAsAdmin">
+                  </a> <!-- testLoginAsAdmin -->
+                  <span class="method-name">testLoginAsAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Venkat\AppData\Local\Temp\testng-eclipse-243265669\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wellsfargo.pronunciation.test.TestPronounciationAsUser&quot;/&gt;
+      &lt;class name=&quot;com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testUserPreferencesButton')
+data.setCell(0, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(0, 3, 13015);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAdminPreferences')
+data.setCell(1, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin')
+data.setCell(1, 3, 12253);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAdminPage')
+data.setCell(2, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin')
+data.setCell(2, 3, 11916);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUserPreferencesUpload')
+data.setCell(3, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(3, 3, 11024);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testUserPreferencesRecord')
+data.setCell(4, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(4, 3, 10995);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testUserPage')
+data.setCell(5, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(5, 3, 10944);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAdminUpload')
+data.setCell(6, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin')
+data.setCell(6, 3, 10854);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAdminRecord')
+data.setCell(7, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin')
+data.setCell(7, 3, 10812);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testUserPreferences')
+data.setCell(8, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(8, 3, 10782);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAdminLandingPage')
+data.setCell(9, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin')
+data.setCell(9, 3, 9871);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginAsUser')
+data.setCell(10, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(10, 3, 9207);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLoginAsAdmin')
+data.setCell(11, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin')
+data.setCell(11, 3, 8436);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUserLandingPage')
+data.setCell(12, 2, 'com.wellsfargo.pronunciation.test.TestPronounciationAsUser')
+data.setCell(12, 3, 8365);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUserPreferences</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">u829006  is displayed</span>
+                <span class="reporter-method-output">Name Search Text Selected</span>
+                <span class="reporter-method-output">Pronounciation of Madan Mohan is displayed</span>
+                <span class="reporter-method-output">Validating table data</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+                <span class="reporter-method-output">Legal Last Name is displayed</span>
+                <span class="reporter-method-output">Preferred Name is displayed</span>
+                <span class="reporter-method-output">Phonetics is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAdminUpload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Upload button displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUserLandingPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">u829006  is displayed</span>
+                <span class="reporter-method-output">Validating Wellsfargo Logo</span>
+                <span class="reporter-method-output">logo is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUserPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">u829006  is displayed</span>
+                <span class="reporter-method-output">Name Search Text Selected</span>
+                <span class="reporter-method-output">Pronounciation of Aby is displayed</span>
+                <span class="reporter-method-output">Validating table data</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+                <span class="reporter-method-output">Legal Last Name is displayed</span>
+                <span class="reporter-method-output">Preferred Name is displayed</span>
+                <span class="reporter-method-output">Phonetics is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginAsUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">user name kiranma is displayed</span>
+                <span class="reporter-method-output">Privacy, Cookies, Security, and Legal not displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUserPreferencesUpload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">u829006  is displayed</span>
+                <span class="reporter-method-output">Upload button displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginAsAdmin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">Admin is displayed</span>
+                <span class="reporter-method-output">Privacy, Cookies, Security, and Legal not displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAdminPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Name Search Text Selected</span>
+                <span class="reporter-method-output">Pronounciation of Aby is displayed</span>
+                <span class="reporter-method-output">Validating table data</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+                <span class="reporter-method-output">Legal Last Name is displayed</span>
+                <span class="reporter-method-output">Preferred Name is displayed</span>
+                <span class="reporter-method-output">Phonetics is displayed</span>
+                <span class="reporter-method-output">validating Admin buttons</span>
+                <span class="reporter-method-output">Preferences button is displayed</span>
+                <span class="reporter-method-output">RECORD ABY button is displayed</span>
+                <span class="reporter-method-output">UPLOAD AUDIO button is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUserPreferencesButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">u829006  is displayed</span>
+                <span class="reporter-method-output">Validating preference dialog box</span>
+                <span class="reporter-method-output">Preferences heading is displayed</span>
+                <span class="reporter-method-output">Select a country and voice in which you would like to listen the pronounciation in is displayed</span>
+                <span class="reporter-method-output">Select a Country is displayed</span>
+                <span class="reporter-method-output">Select Gender not displayed</span>
+                <span class="reporter-method-output">PLAY button is displayed</span>
+                <span class="reporter-method-output">Play button Disabled</span>
+                <span class="reporter-method-output">SAVE button is displayed</span>
+                <span class="reporter-method-output">SAVE button Disabled</span>
+                <span class="reporter-method-output">CANCEL button is displayed</span>
+                <span class="reporter-method-output">CANCEL button Enable</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAdminRecord</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating preference dialog box</span>
+                <span class="reporter-method-output">Record Aby heading is displayed</span>
+                <span class="reporter-method-output">Go to a quiet place and the click on the record button  is displayed</span>
+                <span class="reporter-method-output">Click the button to start recording is displayed</span>
+                <span class="reporter-method-output">CANCEL button displayed</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAdminLandingPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Admin Header</span>
+                <span class="reporter-method-output">Admin is displayed</span>
+                <span class="reporter-method-output">Validating Wellsfargo Logo</span>
+                <span class="reporter-method-output">logo is displayed</span>
+                <span class="reporter-method-output">Validating header</span>
+                <span class="reporter-method-output">Name Pronounciation Tool Header is displayed</span>
+                <span class="reporter-method-output">Validating Name Search TextBox</span>
+                <span class="reporter-method-output">Name Search Text Box is displayed</span>
+                <span class="reporter-method-output">Validating Name Search TextBox dropdown</span>
+                <span class="reporter-method-output">Name Search Drop down is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUserPreferencesRecord</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating Header</span>
+                <span class="reporter-method-output">u829006  is displayed</span>
+                <span class="reporter-method-output">Name Search Text Selected</span>
+                <span class="reporter-method-output">Pronounciation of Madan Mohan is displayed</span>
+                <span class="reporter-method-output">Validating preference dialog box</span>
+                <span class="reporter-method-output">Record Madan Mohan heading is displayed</span>
+                <span class="reporter-method-output">Go to a quiet place and the click on the record button  is displayed</span>
+                <span class="reporter-method-output">Click the button to start recording is displayed</span>
+                <span class="reporter-method-output">CANCEL button displayed</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAdminPreferences</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating title</span>
+                <span class="reporter-method-output">Name Pronounciation Tool title is displayed</span>
+                <span class="reporter-method-output">Validating preference dialog box</span>
+                <span class="reporter-method-output">Preferences heading is displayed</span>
+                <span class="reporter-method-output">Select a country and voice in which you would like to listen the pronounciation in is displayed</span>
+                <span class="reporter-method-output">Select a Country is displayed</span>
+                <span class="reporter-method-output">Select Gender not displayed</span>
+                <span class="reporter-method-output">PLAY button is displayed</span>
+                <span class="reporter-method-output">Play button Disabled</span>
+                <span class="reporter-method-output">SAVE button is displayed</span>
+                <span class="reporter-method-output">SAVE button Disabled</span>
+                <span class="reporter-method-output">CANCEL button is displayed</span>
+                <span class="reporter-method-output">CANCEL button Enable</span>
+                <span class="reporter-method-output">Legal First Name is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wellsfargo.pronunciation.test.TestPronounciationAsUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginAsUser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserLandingPage</span>
+                <span class="method-start">9218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserPage</span>
+                <span class="method-start">17592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserPreferences</span>
+                <span class="method-start">28540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserPreferencesButton</span>
+                <span class="method-start">39329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserPreferencesRecord</span>
+                <span class="method-start">52355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserPreferencesUpload</span>
+                <span class="method-start">63357 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAdminLandingPage</span>
+                <span class="method-start">74386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdminPage</span>
+                <span class="method-start">84259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdminPreferences</span>
+                <span class="method-start">96181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdminRecord</span>
+                <span class="method-start">108436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdminUpload</span>
+                <span class="method-start">119250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginAsAdmin</span>
+                <span class="method-start">130106 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

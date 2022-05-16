@@ -1,0 +1,343 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 16 16:18:55 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>138 seconds (138575 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin.testAdminLandingPage()'><b>testAdminLandingPage</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin<br/>
+<a href="#Output-1128600792" onClick='toggleBox("Output-1128600792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128600792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128600792">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Admin Header<br/>
+Admin is displayed<br/>
+Validating Wellsfargo Logo<br/>
+logo is displayed<br/>
+Validating header<br/>
+Name Pronounciation Tool Header is displayed<br/>
+Validating Name Search TextBox<br/>
+Name Search Text Box is displayed<br/>
+Validating Name Search TextBox dropdown<br/>
+Name Search Drop down is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin.testAdminPage()'><b>testAdminPage</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin<br/>
+<a href="#Output-2066213108" onClick='toggleBox("Output-2066213108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2066213108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2066213108">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Name Search Text Selected<br/>
+Pronounciation of Aby is displayed<br/>
+Validating table data<br/>
+Legal First Name is displayed<br/>
+Legal Last Name is displayed<br/>
+Preferred Name is displayed<br/>
+Phonetics is displayed<br/>
+validating Admin buttons<br/>
+Preferences button is displayed<br/>
+RECORD ABY button is displayed<br/>
+UPLOAD AUDIO button is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin.testAdminPreferences()'><b>testAdminPreferences</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin<br/>
+<a href="#Output-1929506494" onClick='toggleBox("Output-1929506494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929506494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929506494">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating preference dialog box<br/>
+Preferences heading is displayed<br/>
+Select a country and voice in which you would like to listen the pronounciation in is displayed<br/>
+Select a Country is displayed<br/>
+Select Gender not displayed<br/>
+PLAY button is displayed<br/>
+Play button Disabled<br/>
+SAVE button is displayed<br/>
+SAVE button Disabled<br/>
+CANCEL button is displayed<br/>
+CANCEL button Enable<br/>
+Legal First Name is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin.testAdminRecord()'><b>testAdminRecord</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin<br/>
+<a href="#Output-510207317" onClick='toggleBox("Output-510207317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-510207317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-510207317">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating preference dialog box<br/>
+Record Aby heading is displayed<br/>
+Go to a quiet place and the click on the record button  is displayed<br/>
+Click the button to start recording is displayed<br/>
+CANCEL button displayed<br/>
+Legal First Name is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin.testAdminUpload()'><b>testAdminUpload</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin<br/>
+<a href="#Output-1722102020" onClick='toggleBox("Output-1722102020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1722102020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1722102020">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Upload button displayed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin.testLoginAsAdmin()'><b>testLoginAsAdmin</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin<br/>
+<a href="#Output-1063494931" onClick='toggleBox("Output-1063494931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063494931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063494931">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+Admin is displayed<br/>
+Privacy, Cookies, Security, and Legal not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testLoginAsUser()'><b>testLoginAsUser</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-3886839" onClick='toggleBox("Output-3886839", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3886839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3886839">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+user name kiranma is displayed<br/>
+Privacy, Cookies, Security, and Legal not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testUserLandingPage()'><b>testUserLandingPage</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-233951222" onClick='toggleBox("Output-233951222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-233951222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-233951222">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+u829006  is displayed<br/>
+Validating Wellsfargo Logo<br/>
+logo is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testUserPage()'><b>testUserPage</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-684429600" onClick='toggleBox("Output-684429600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684429600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684429600">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+u829006  is displayed<br/>
+Name Search Text Selected<br/>
+Pronounciation of Aby is displayed<br/>
+Validating table data<br/>
+Legal First Name is displayed<br/>
+Legal Last Name is displayed<br/>
+Preferred Name is displayed<br/>
+Phonetics is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testUserPreferences()'><b>testUserPreferences</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-557342904" onClick='toggleBox("Output-557342904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-557342904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-557342904">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+u829006  is displayed<br/>
+Name Search Text Selected<br/>
+Pronounciation of Madan Mohan is displayed<br/>
+Validating table data<br/>
+Legal First Name is displayed<br/>
+Legal Last Name is displayed<br/>
+Preferred Name is displayed<br/>
+Phonetics is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testUserPreferencesButton()'><b>testUserPreferencesButton</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-197195067" onClick='toggleBox("Output-197195067", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-197195067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-197195067">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+u829006  is displayed<br/>
+Validating preference dialog box<br/>
+Preferences heading is displayed<br/>
+Select a country and voice in which you would like to listen the pronounciation in is displayed<br/>
+Select a Country is displayed<br/>
+Select Gender not displayed<br/>
+PLAY button is displayed<br/>
+Play button Disabled<br/>
+SAVE button is displayed<br/>
+SAVE button Disabled<br/>
+CANCEL button is displayed<br/>
+CANCEL button Enable<br/>
+Legal First Name is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testUserPreferencesRecord()'><b>testUserPreferencesRecord</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-1790430792" onClick='toggleBox("Output-1790430792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1790430792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1790430792">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+u829006  is displayed<br/>
+Name Search Text Selected<br/>
+Pronounciation of Madan Mohan is displayed<br/>
+Validating preference dialog box<br/>
+Record Madan Mohan heading is displayed<br/>
+Go to a quiet place and the click on the record button  is displayed<br/>
+Click the button to start recording is displayed<br/>
+CANCEL button displayed<br/>
+Legal First Name is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+<tr>
+<td title='com.wellsfargo.pronunciation.test.TestPronounciationAsUser.testUserPreferencesUpload()'><b>testUserPreferencesUpload</b><br>Test class: com.wellsfargo.pronunciation.test.TestPronounciationAsUser<br/>
+<a href="#Output-1743770306" onClick='toggleBox("Output-1743770306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1743770306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1743770306">
+Validating title<br/>
+Name Pronounciation Tool title is displayed<br/>
+Validating Header<br/>
+u829006  is displayed<br/>
+Upload button displayed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0</td></tr>
+</table><p>
+</body>
+</html>

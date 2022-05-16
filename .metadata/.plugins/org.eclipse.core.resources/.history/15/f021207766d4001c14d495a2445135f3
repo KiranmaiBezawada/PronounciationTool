@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PronunciationSuite">
+  <test name="Test login">      
+      <classes>
+      <class name="com/wellsfargo/pronunciation/test/TestLogin.java"/>
+      </classes>
+  </test>
+</suite>

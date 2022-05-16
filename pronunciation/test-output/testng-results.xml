@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[user name kiranma is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Privacy, Cookies, Security, and Legal not displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[u829006  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Wellsfargo Logo]]>
+    </line>
+    <line>
+      <![CDATA[logo is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[u829006  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Name Search Text Selected]]>
+    </line>
+    <line>
+      <![CDATA[Pronounciation of Aby is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating table data]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Legal Last Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preferred Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Phonetics is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[u829006  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Name Search Text Selected]]>
+    </line>
+    <line>
+      <![CDATA[Pronounciation of Madan Mohan is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating table data]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Legal Last Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preferred Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Phonetics is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[u829006  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating preference dialog box]]>
+    </line>
+    <line>
+      <![CDATA[Preferences heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Select a country and voice in which you would like to listen the pronounciation in is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Select a Country is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Select Gender not displayed]]>
+    </line>
+    <line>
+      <![CDATA[PLAY button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Play button Disabled]]>
+    </line>
+    <line>
+      <![CDATA[SAVE button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[SAVE button Disabled]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL button Enable]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[u829006  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Name Search Text Selected]]>
+    </line>
+    <line>
+      <![CDATA[Pronounciation of Madan Mohan is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating preference dialog box]]>
+    </line>
+    <line>
+      <![CDATA[Record Madan Mohan heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Go to a quiet place and the click on the record button  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Click the button to start recording is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL button displayed]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[u829006  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Upload button displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Admin Header]]>
+    </line>
+    <line>
+      <![CDATA[Admin is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Wellsfargo Logo]]>
+    </line>
+    <line>
+      <![CDATA[logo is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating header]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool Header is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Name Search TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Name Search Text Box is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Name Search TextBox dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Name Search Drop down is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Name Search Text Selected]]>
+    </line>
+    <line>
+      <![CDATA[Pronounciation of Aby is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating table data]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Legal Last Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Preferred Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Phonetics is displayed]]>
+    </line>
+    <line>
+      <![CDATA[validating Admin buttons]]>
+    </line>
+    <line>
+      <![CDATA[Preferences button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[RECORD ABY button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[UPLOAD AUDIO button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating preference dialog box]]>
+    </line>
+    <line>
+      <![CDATA[Preferences heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Select a country and voice in which you would like to listen the pronounciation in is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Select a Country is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Select Gender not displayed]]>
+    </line>
+    <line>
+      <![CDATA[PLAY button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Play button Disabled]]>
+    </line>
+    <line>
+      <![CDATA[SAVE button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[SAVE button Disabled]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL button Enable]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating preference dialog box]]>
+    </line>
+    <line>
+      <![CDATA[Record Aby heading is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Go to a quiet place and the click on the record button  is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Click the button to start recording is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL button displayed]]>
+    </line>
+    <line>
+      <![CDATA[Legal First Name is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Upload button displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating title]]>
+    </line>
+    <line>
+      <![CDATA[Name Pronounciation Tool title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Validating Header]]>
+    </line>
+    <line>
+      <![CDATA[Admin is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Privacy, Cookies, Security, and Legal not displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-16T10:48:55Z" name="Default suite" finished-at="2022-05-16T10:51:14Z" duration-ms="138575">
+    <groups>
+    </groups>
+    <test started-at="2022-05-16T10:48:55Z" name="Default test" finished-at="2022-05-16T10:51:14Z" duration-ms="138575">
+      <class name="com.wellsfargo.pronunciation.test.TestPronounciationAsUser">
+        <test-method signature="testLoginAsUser()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:48:55Z" name="testLoginAsUser" finished-at="2022-05-16T10:49:04Z" duration-ms="9207" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[user name kiranma is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Privacy, Cookies, Security, and Legal not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginAsUser -->
+        <test-method signature="testUserLandingPage()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:49:04Z" name="testUserLandingPage" finished-at="2022-05-16T10:49:13Z" duration-ms="8365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[u829006  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Wellsfargo Logo]]>
+            </line>
+            <line>
+              <![CDATA[logo is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserLandingPage -->
+        <test-method signature="testUserPage()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:49:13Z" name="testUserPage" finished-at="2022-05-16T10:49:24Z" duration-ms="10944" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[u829006  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Name Search Text Selected]]>
+            </line>
+            <line>
+              <![CDATA[Pronounciation of Aby is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating table data]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Legal Last Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preferred Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Phonetics is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserPage -->
+        <test-method signature="testUserPreferences()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:49:24Z" name="testUserPreferences" finished-at="2022-05-16T10:49:34Z" duration-ms="10782" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[u829006  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Name Search Text Selected]]>
+            </line>
+            <line>
+              <![CDATA[Pronounciation of Madan Mohan is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating table data]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Legal Last Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preferred Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Phonetics is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserPreferences -->
+        <test-method signature="testUserPreferencesButton()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:49:34Z" name="testUserPreferencesButton" finished-at="2022-05-16T10:49:47Z" duration-ms="13015" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[u829006  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating preference dialog box]]>
+            </line>
+            <line>
+              <![CDATA[Preferences heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Select a country and voice in which you would like to listen the pronounciation in is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Select a Country is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Select Gender not displayed]]>
+            </line>
+            <line>
+              <![CDATA[PLAY button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Play button Disabled]]>
+            </line>
+            <line>
+              <![CDATA[SAVE button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[SAVE button Disabled]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL button Enable]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserPreferencesButton -->
+        <test-method signature="testUserPreferencesRecord()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:49:47Z" name="testUserPreferencesRecord" finished-at="2022-05-16T10:49:58Z" duration-ms="10995" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[u829006  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Name Search Text Selected]]>
+            </line>
+            <line>
+              <![CDATA[Pronounciation of Madan Mohan is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating preference dialog box]]>
+            </line>
+            <line>
+              <![CDATA[Record Madan Mohan heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Go to a quiet place and the click on the record button  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Click the button to start recording is displayed]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL button displayed]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserPreferencesRecord -->
+        <test-method signature="testUserPreferencesUpload()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsUser@7c214cc0]" started-at="2022-05-16T10:49:58Z" name="testUserPreferencesUpload" finished-at="2022-05-16T10:50:10Z" duration-ms="11024" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[u829006  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Upload button displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserPreferencesUpload -->
+      </class> <!-- com.wellsfargo.pronunciation.test.TestPronounciationAsUser -->
+      <class name="com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin">
+        <test-method signature="testAdminLandingPage()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e]" started-at="2022-05-16T10:50:10Z" name="testAdminLandingPage" finished-at="2022-05-16T10:50:19Z" duration-ms="9871" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Admin Header]]>
+            </line>
+            <line>
+              <![CDATA[Admin is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Wellsfargo Logo]]>
+            </line>
+            <line>
+              <![CDATA[logo is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating header]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool Header is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Name Search TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Name Search Text Box is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Name Search TextBox dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Name Search Drop down is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdminLandingPage -->
+        <test-method signature="testAdminPage()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e]" started-at="2022-05-16T10:50:19Z" name="testAdminPage" finished-at="2022-05-16T10:50:31Z" duration-ms="11916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Name Search Text Selected]]>
+            </line>
+            <line>
+              <![CDATA[Pronounciation of Aby is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating table data]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Legal Last Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Preferred Name is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Phonetics is displayed]]>
+            </line>
+            <line>
+              <![CDATA[validating Admin buttons]]>
+            </line>
+            <line>
+              <![CDATA[Preferences button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[RECORD ABY button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[UPLOAD AUDIO button is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdminPage -->
+        <test-method signature="testAdminPreferences()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e]" started-at="2022-05-16T10:50:31Z" name="testAdminPreferences" finished-at="2022-05-16T10:50:44Z" duration-ms="12253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating preference dialog box]]>
+            </line>
+            <line>
+              <![CDATA[Preferences heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Select a country and voice in which you would like to listen the pronounciation in is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Select a Country is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Select Gender not displayed]]>
+            </line>
+            <line>
+              <![CDATA[PLAY button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Play button Disabled]]>
+            </line>
+            <line>
+              <![CDATA[SAVE button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[SAVE button Disabled]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL button is displayed]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL button Enable]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdminPreferences -->
+        <test-method signature="testAdminRecord()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e]" started-at="2022-05-16T10:50:44Z" name="testAdminRecord" finished-at="2022-05-16T10:50:54Z" duration-ms="10812" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating preference dialog box]]>
+            </line>
+            <line>
+              <![CDATA[Record Aby heading is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Go to a quiet place and the click on the record button  is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Click the button to start recording is displayed]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL button displayed]]>
+            </line>
+            <line>
+              <![CDATA[Legal First Name is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdminRecord -->
+        <test-method signature="testAdminUpload()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e]" started-at="2022-05-16T10:50:54Z" name="testAdminUpload" finished-at="2022-05-16T10:51:05Z" duration-ms="10854" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Upload button displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdminUpload -->
+        <test-method signature="testLoginAsAdmin()[pri:0, instance:com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin@5b67bb7e]" started-at="2022-05-16T10:51:05Z" name="testLoginAsAdmin" finished-at="2022-05-16T10:51:14Z" duration-ms="8436" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating title]]>
+            </line>
+            <line>
+              <![CDATA[Name Pronounciation Tool title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Validating Header]]>
+            </line>
+            <line>
+              <![CDATA[Admin is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Privacy, Cookies, Security, and Legal not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginAsAdmin -->
+      </class> <!-- com.wellsfargo.pronunciation.test.TestPronounciationAsAdmin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
